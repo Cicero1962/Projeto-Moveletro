@@ -1,0 +1,96 @@
+.header{
+    background-color: #FFC90D;
+    padding: 10px 0;
+}
+
+.header_container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr) 3fr 1fr 1fr;
+    align-items: center;
+}
+
+.form{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    width: 100%;
+    
+   
+}
+
+.form_input{
+    flex: 1;
+    border-radius: 20px;
+    padding: 10px 0 10px 10px;
+    
+}
+.btn{
+    position: absolute;
+    width: 37px;
+    height: 37px;
+    border-radius: 100px;
+    right: 0;
+    top: 0;
+    background-color: #2C2D65;
+    cursor: pointer;
+}
+
+.atendimento{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #3b3839;
+}
+
+.login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    font-size: 12px;
+    color: #3b3839;
+}
+
+.compras{
+    display: flex;
+    justify-content: center;
+}
+
+.menu{
+    display: none;
+}
+
+@media(max-width:1000px){
+    .atendimento{
+        display: none;
+    }
+    .login{
+        display: none;
+    }
+    .menu{
+        display: flex;
+    }
+    .header_container{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        max-width: 1000px;
+        margin: 0 auto;
+        padding-left: 20px;
+        padding-right: 20px;
+        gap: 5px 0px
+    }
+    .form{
+        grid-area: 3 / 4;
+        grid-column: span 4;
+    }
+    .compras{
+        justify-content: flex-end;
+    }
+    .logo{
+        display: flex;
+        justify-content: center;
+    }
+}
