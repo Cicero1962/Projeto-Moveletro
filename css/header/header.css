@@ -1,6 +1,6 @@
 .header{
     background-color: #FFC90D;
-    padding: 10px 0;
+    padding: 13px 0;
 }
 
 .header_container{
@@ -15,14 +15,13 @@
     flex-direction: row;
     width: 100%;
     
-   
 }
 
 .form_input{
     flex: 1;
     border-radius: 20px;
     padding: 10px 0 10px 10px;
-    
+    border: 2px solid #2C2D65;
 }
 .btn{
     position: absolute;
@@ -33,6 +32,7 @@
     top: 0;
     background-color: #2C2D65;
     cursor: pointer;
+    border: none;
 }
 
 .atendimento{

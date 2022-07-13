@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="24"
+   height="24"
+   viewBox="0 0 24 24"
+   fill="none"
+   stroke="currentColor"
+   stroke-width="2"
+   stroke-linecap="round"
+   stroke-linejoin="round"
+   version="1.1"
+   id="svg588"
+   sodipodi:docname="seta1.svg"
+   inkscape:version="1.2-beta (1b65182ce9, 2022-04-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs592" />
+  <sodipodi:namedview
+     id="namedview590"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="32.666667"
+     inkscape:cx="11.984694"
+     inkscape:cy="12"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg588" />
+  <line
+     x1="12"
+     y1="5"
+     x2="12"
+     y2="19"
+     id="line584" />
+  <polyline
+     points="19 12 12 19 5 12"
+     id="polyline586" />
+  <path
+     style="fill:#ff7f2a;stroke-width:0.0612245"
+     d="M 11.630968,19.911757 C 11.492899,19.858631 11.083825,19.459628 7.8350498,16.209287 3.7837611,12.156046 4.0257707,12.423459 4.0256298,12 c -2.33e-4,-0.700335 0.7315969,-1.179303 1.3635963,-0.892447 0.1684096,0.07644 0.4298872,0.32879 2.8928571,2.79188 l 2.7077128,2.707846 0.01531,-5.900578 c 0.01463,-5.6384983 0.01781,-5.9070291 0.07169,-6.0458092 C 11.15124,4.46916 11.373824,4.2257536 11.568135,4.1235886 11.704183,4.0520568 11.760271,4.0413801 12,4.0413801 c 0.238866,0 0.296032,0.010795 0.429801,0.081162 0.162363,0.085409 0.376113,0.2949943 0.451635,0.4428346 0.112053,0.2193551 0.113462,0.2967578 0.113462,6.2343663 v 5.82224 l 2.732143,-2.727326 c 3.049701,-3.044325 2.852607,-2.872136 3.283163,-2.86829 0.262599,0.0023 0.445921,0.07618 0.646544,0.260413 0.206666,0.189777 0.317713,0.439135 0.317622,0.71322 -1.53e-4,0.423458 0.24186,0.156055 -3.809335,4.209202 -3.359589,3.361209 -3.653737,3.647575 -3.804719,3.704065 -0.212881,0.07965 -0.520076,0.07901 -0.729348,-0.0015 z"
+     id="path663" />
+</svg>

@@ -1,41 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./css/style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
     <header class="header">
-            <div class="header_container container">
-                <div class="menu">
-                    <img src="./img/reorder_white_18dp.svg" alt="" width="30">
-                </div>
-                <div class="logo">
-                    <img src="./img/logo moveeletro.png" alt="">
-                </div>
-                <div class="atendimento">
-                    <img src="./img/fone.svg" alt="">
-                    <span>atendimento</span>
-                </div>
-                <form class="form">
-                    <input class="form_input" type="text" name="busca" placeholder="Digite aqui o que você procura...">
-                    <button class="btn" type="submit">
-                        <img  src="./img/lupa.svg" alt="" width="20">
-                    </button>
-                </form>
-                <div class="login">
-                    <img src="./img/person.svg" alt="">
-                    <span>Entrar</span>
-                </div>
-                <div class="compras">
-                    <img src="./img/carrinho-de-compras-60.png" alt="" width="39">
-                </div>
+      <div class="header_container container">
+        <div class="menu">
+          <a href="">
+            <img src="./img/menu1.svg" alt="" width="30" />
+        </a>
         </div>
+        <div class="logo">
+          <a href="">
+            <img src="./img/logo moveeletro.png" alt="" />
+        </a>
+        </div>
+
+        <a class="atendimento" href="">
+          <img src="./img/telefone2.svg" alt="" width="20" />
+          <span> atendimento </span>
+        </a>
+
+        <form class="form">
+          <input
+            class="form_input"
+            type="text"
+            name="busca"
+            placeholder="Digite aqui o que você procura..."
+          />
+          <button class="btn" type="submit">
+            <img src="./img/lupa3.svg" alt="" width="20" />
+          </button>
+        </form>
+          <a class="login" href="">
+              <img src="./img/pessoa1.svg" alt="" width="20" />
+              <span> Entrar </span>
+          </a>
+        <div class="compras">
+          <a href="">
+            <img src="./img/carrinho4.svg" alt="" width="39" />
+        </a>
+        </div>
+      </div>
     </header>
-</body>
+    <div class="departamentos">
+      <div class="depart_container container">
+        <a class="menu_depart" href="">
+          <img src="./img/menu3.svg" alt="" width="20" />
+          <span>
+             Departamentos
+          </span>
+          <img src="./img/seta1.svg" alt="" width="13" />
+        </a>
+        <a href="">
+          <span>
+            Áudio e Video
+         </span>
+          <img src="./img/seta1.svg" alt="" width="13" />
+        </a>
+        <a href="">
+          <span>
+            Eletrodomésticos
+          </span>
+          <img src="./img/seta1.svg" alt="" width="13" />
+        </a>
+        <a href="">
+          <span>
+             Eletroportatéis
+          </span>
+          <img src="./img/seta1.svg" alt="" width="13" />
+        </a>
+        <a href="">
+          <span>
+             Móveis e Decorações
+          </span>
+          <img src="./img/seta1.svg" alt="" width="13" />
+        </a>
+        <a href="">
+          <span>
+            Unidades do Lar
+          </span>
+          <img src="./img/seta1.svg" alt="" width="13" />
+        </a>
+        <a href="">
+          <span>
+            Promoções
+          </span>
+          <img src="./img/seta1.svg" alt="" width="13" />
+        </a>
+      </div>
+    </div>
+    <div class="banners">
+      <div class="slides">
+        <input class="none" type="radio" name="slide" id="slide1" checked />
+        <input class="none" type="radio" name="slide" id="slide2" />
+        <input class="none" type="radio" name="slide" id="slide3" />
+        <input class="none" type="radio" name="slide" id="slide4" />
+
+        <div class="slide s1">
+          <img src="./img/banner1.webp" alt="" />
+        </div>
+
+        <div class="slide">
+          <img src="./img/banner2.webp" alt="" />
+        </div>
+
+        <div class="slide">
+          <img src="./img/banner3.webp" alt="" />
+        </div>
+
+        <div class="slide">
+          <img src="./img/banner4.webp" alt="" />
+        </div>
+      </div>
+
+      <div class="navigation">
+        <label class="bar" for="slide1"></label>
+        <label class="bar"for="slide2"></label>
+        <label class="bar"for="slide3"></label>
+        <label class="bar"for="slide4"></label>
+      </div>
+    </div>
+  </body>
 </html>
-
-
