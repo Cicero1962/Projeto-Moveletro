@@ -152,12 +152,7 @@
     background-image: url("../../img/faqueiro-tramontina-inox-leme-25-pcs-preto-5235.jpg");
 }
 
-.inst_img{
-    background-image: url("https://static.lojasmoveletro.com.br/public/lojamoveletro/imagens/sprite_footer-s55cbfbf2cf.png");
-    height: 44px !important;
-    width: 112px !important;
-    background-position: 0 -980px !important;
-}
+
 
 .ofertas {
     width: 100%;
@@ -340,6 +335,14 @@
     align-items: center;
     gap: 10px;
     padding-left: 60px;
+}
+
+.container_geral{
+    padding-bottom: 20px;
+}
+
+.duvidas{
+    margin-bottom: 20px;
 }
 
 .news_cadastro{
