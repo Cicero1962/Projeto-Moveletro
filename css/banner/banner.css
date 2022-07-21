@@ -1,10 +1,8 @@
 .banners{
     width: 100%;
-    height: auto;
+    height: 420px;
     overflow: hidden;
-    position: absolute;
-    
-    
+    position: relative;
 }
 .navigation{
     position: absolute;
@@ -13,6 +11,19 @@
     transform: translate(-50%);
     display: flex;
     gap: 10px;
+}
+
+.container_img{
+    display: none;
+    width: 425px;
+    height: 515px;
+}
+
+.img_banner{
+    display: none;
+    width: 100%;
+    height: 100%;
+   
 }
 .bar{
     width: 25px;
@@ -44,7 +55,7 @@
 
 .slide img{
     width: 100%;
-    height: 100%;
+    height: auto;
     
     
 }
@@ -64,3 +75,140 @@
 #slide4:checked ~ .s1{
     margin-left: -75%;
 }
+
+
+
+.vantagens{
+    margin-bottom: 80px;
+    background-color: #FCFCFC;
+}
+
+.vantagens_link{
+    display: flex;
+    gap: 14px;
+    align-items: center;
+}
+
+.vantagens_itens h3{
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #2c2d65;
+}
+
+.vantagens_itens p{
+    color: #2C2D65;
+    font-size: 14px;
+}
+
+.vantagens_container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 10px 0;
+}
+
+.setores{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 50px;
+}
+
+.setores{
+    padding-bottom: 50px;
+}
+
+.beleza {
+    width: 214px;
+    height: auto;
+    
+}
+
+.beleza img{
+    max-width: 100%;
+    height: auto;
+    transition: all 300ms ease;
+}
+
+.beleza img:hover{
+    transform: scale(1.1);
+}
+
+.produtos_container{
+    display: grid;
+    grid-template-columns: auto minmax(609px, 2fr) auto;
+    gap: 50px 10px;
+    justify-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+.produtos_container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 300ms ease;
+}
+
+.produtos_container img:hover{
+    transform: scale(1.07);
+}
+
+.banner_produto {
+    overflow: hidden;
+}
+
+@media(max-width:500px){
+    .banners{
+        margin-bottom: 50px;
+    }
+    
+    .navigation{
+        bottom: 0px;
+    }
+    .bar{
+        box-shadow:0px 0px 15px 0px rgb(0 0 0 / 75%);;
+    }
+}
+
+@media(max-width:850px){
+    .vantagens_container{
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+        gap: 30px 0px;
+    }
+
+    .banner1{
+        display: none;
+    }
+
+    .img_banner{
+        display: block;
+    }
+}
+
+@media(max-width:470px){
+    .vantagens_container{
+        display: flex;
+        flex-direction: column;
+        padding-left: 60px;
+        
+    }
+}
+
+@media(max-width:500px){
+    .setores{
+        flex-direction: column;
+        align-items: center;
+        gap: 30px 0px;
+    }
+}
+
+@media(max-width:1000px){
+    .produtos_container{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+

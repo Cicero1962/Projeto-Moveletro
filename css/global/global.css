@@ -11,3 +11,23 @@
     max-width: 1280px;
     margin: 0 auto;
 }
+
+.depart_submenu{
+    display: none;
+    position: absolute;
+    background-color: white;
+    z-index: 1;
+    border: 2px solid #35377B;
+    font-size: .85rem;
+    color: black;
+    left: 0;
+    top: 100%;
+}
+
+.img_produto {
+    width: 100%;
+    background-size: 80%;
+    background-position: top center;
+    background-repeat: no-repeat;
+    margin-top: 40px;
+}

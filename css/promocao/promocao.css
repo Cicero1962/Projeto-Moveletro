@@ -1,0 +1,486 @@
+.promocoes {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding-left: 40px;
+    padding-right: 40px;
+    gap: 50px;
+}
+
+.promo_conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.promo_container {
+    border-bottom: 1px solid #A5A5A5;
+    margin-bottom: 50px;
+}
+
+
+
+.promo_img {
+    position: relative;
+    width: 100%;
+    height: 323px;
+    border: 2px solid rgba(0, 0, 0, 0.101);
+    border-radius: 6px;
+    margin-bottom: 5px;
+}
+
+.promo_img:hover {
+    border: 2px solid #A5A5A5;
+}
+
+.promo_texto {
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 40px;
+}
+
+.promo_texto h1 {
+    font-size: 24px;
+    color: #2c2c65;
+    font-weight: 600;
+}
+
+.cel {
+    margin-bottom: 5px !important;
+}
+
+.itatiai {
+    background-image: url("../../img/cozinha.png");
+    height: 195px;
+}
+
+.itatiai:hover {
+    background-image: url("../../img/cozinha-compacta-itatiaia.png");
+}
+
+.fit {
+    background-image: url("../../img/cozinha2.jpg");
+    height: 195px;
+}
+
+.fit:hover {
+    background-image: url("../../img/cozinha-fit-carvalho-.jpg");
+}
+
+.acacia {
+    background-image: url("../../img/cozinha-itatiaia-acacia.jpg");
+    height: 195px;
+}
+
+.acacia:hover {
+    background-image: url("../../img/cozinha-itatiaia-acacia2.jpg");
+}
+
+.olimpo {
+    background-image: url("../../img/roupeiro-06.jpg");
+    height: 195px;
+}
+
+.olimpo:hover {
+    background-image: url("../../img/roupeiro-06-pts-c-espelho.jpg");
+}
+
+.cel_rose {
+    background-image: url("../../img/celular-philco-p10-rose-4949.jpg");
+    height: 100%;
+    margin-top: 20px !important;
+}
+
+.cel_rose:hover {
+    background-image: url("../../img/celular-philco-p10-rose-4951.jpg");
+    height: 100%;
+    background-size: 60%;
+    margin-top: 0 !important;
+}
+
+.red_azul {
+    background-image: url("../../img/celular-xiaomi-.jpg");
+    height: 195px;
+}
+
+.red_azul:hover {
+    background-image: url("../../img/celular-xiaomi-redmi-10a-64gb-android-11-octa-core-cx341-azul-4791.jpg");
+}
+
+.red_cza {
+    background-image: url("../../img/celular-xiaomi-redmi-10a-64gb-android-11-octa-core-cx341-cinza-4779.jpg");
+    height: 195px;
+}
+
+.red_cza:hover {
+    background-image: url("../../img/celular-xiaomi-redmi-10a-64gb-android-11-octa-core-cx341-cinza-4781.png")
+}
+
+.roku {
+    background-image: url("../../img/roku.jpg");
+    height: 195px;
+}
+
+.roku:hover {
+    background-image: url("../../img/roku1.jpg");
+}
+
+.berco_rosa {
+    background-image: url("../../img/berco-sonho-cappuccino-rosa-cpr-galzerano-5257.jpg");
+    height: 100%;
+    margin-top: 60px !important;
+}
+
+.berco_cza {
+    background-image: url("../../img/berco-sonho-preto-cinza-ptc-galzerano-5258.jpg");
+    height: 100%;
+}
+
+.berco_cacau {
+    background-image: url("../../img/berco-sonho-cacau-cc-galzerano-5259.jpg");
+    height: 100%;
+}
+
+.faqueiro {
+    background-image: url("../../img/faqueiro-tramontina-inox-leme-25-pcs-preto-5236.jpg");
+    height: 100%;
+}
+
+.faqueiro:hover {
+    background-image: url("../../img/faqueiro-tramontina-inox-leme-25-pcs-preto-5235.jpg");
+}
+
+.inst_img{
+    background-image: url("https://static.lojasmoveletro.com.br/public/lojamoveletro/imagens/sprite_footer-s55cbfbf2cf.png");
+    height: 44px !important;
+    width: 112px !important;
+    background-position: 0 -980px !important;
+}
+
+.ofertas {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    padding-bottom: 40px;
+}
+
+.ofertas_mini {
+    display: none;
+}
+
+.ofertas img {
+    max-width: 100%;
+    transition: all 300ms ease;
+}
+
+.ofertas img:hover {
+    transform: scale(1.07);
+}
+
+.ofertas_mini img {
+    max-width: 100%;
+    transition: all 300ms ease;
+    
+}
+
+.ofertas_mini img:hover{
+    transform: scale(1.07);
+}
+
+.bt {
+    text-transform: uppercase;
+    border-radius: 20px;
+    font-size: 10px;
+    border: none;
+    color: #041033;
+    padding: 3px;
+    cursor: pointer;
+}
+
+.bt:hover {
+    background-color: white;
+}
+
+.text_container {
+    width: 100%;
+}
+
+.text_descricao {
+    margin-bottom: 5px;
+}
+
+.text_descricao p {
+    color: black;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.text_valor {
+    margin-bottom: 10px;
+}
+
+.text_valor p {
+    font-size: 12px;
+    color: black;
+}
+
+.span {
+    font-size: 14px !important;
+    text-decoration: line-through;
+}
+
+.valor {
+    font-size: 19px;
+}
+
+.text_parcela {
+    display: flex;
+    font-size: 12px;
+    color: black;
+    font-weight: 500;
+    align-items: flex-end;
+    white-space: nowrap;
+    justify-content: space-between;
+}
+
+.text_parcela .icone {
+    width: 33px;
+    height: 33px;
+    background-image: url("../../img/teste.svg");
+    background-size: 70%;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-left: 1px solid #A5A5A5;
+}
+
+.text_parcela .icone:hover {
+    background-color: #00B22D;
+    background-image: url("../../img/teste2.svg");
+}
+
+.text_parcela span {
+    font-size: 14px;
+    color: black;
+    font-weight: 500;
+}
+
+.conforto {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 40px;
+    padding-top: 50px;
+    padding-bottom: 50PX;
+}
+
+.conforto img {
+    width: 100%;
+    transition: all 300ms ease;
+}
+
+.conforto img:hover {
+    transform: scale(1.07);
+}
+
+.erase {
+    visibility: hidden;
+}
+
+.redes{display: block;
+    background-color: #ffc90d;
+    padding: 50px 0px;
+
+}
+.redes_container{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   gap: 40px;
+   background-color: white;
+   padding: 30px;
+   
+}
+
+.redes_texto{
+    background-color: white;
+}
+
+.redes_texto >h1 {
+    color: #2c2c65;
+    font-size: 28px;
+    text-transform: uppercase;
+    font-weight: 400;
+    padding-left: 20px;
+
+}
+
+.redes_conteudo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    background-color: white;
+}
+
+.redes_link > h3{
+    color: #583e33;
+    font-size: 13px;
+    font-weight: 400;
+}
+.redes_link{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.newsletter{
+    display: flex;
+    background-color: #2C2D65;
+    align-items: center;
+    gap: 10px;
+    padding-left: 60px;
+}
+
+.news_cadastro{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 5px 0;
+}
+
+.form{
+    display: flex;
+    gap: 10px;
+}
+
+.nome{
+    width: 100%;
+    max-width: 160px;
+    padding: 12px 10px;
+    outline: none;
+}
+
+.email{
+    width: 100%;
+    max-width: 360px;
+    padding: 12px 10px;
+    outline: none;
+}
+
+.news_texto h1{
+    text-transform: uppercase;
+    white-space: nowrap;
+    color: white;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.news_texto p{
+    color: white;
+    white-space: nowrap;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.but{
+    display: inline-block;
+    width: 100%;
+    max-width: 125px;
+    background-color: #f08537;
+    color: white;
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.but:hover{
+    background-color: #F4A266;
+}
+
+.news_texto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media(max-width:1300px) {
+    .promocoes {
+        gap: 10px;
+        overflow-x: scroll;
+    }
+}
+
+@media(max-width:800px) {
+    .conforto {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding-left: 20px;
+        padding-right: 20px;
+        gap: 15px;
+    }
+}
+
+@media(max-width:1000px) {
+    .ofertas {
+        display: none;
+    }
+
+    .promo_container{
+        margin-bottom: 20px;
+    }
+
+    .ofertas_mini {
+        width: 100%;
+        height: auto;
+        display: block;
+        text-align: center;
+        overflow: hidden;
+        margin-top: 0px;
+    }
+
+    .redes{
+        margin-bottom: 20px;
+    }
+    .redes_conteudo{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .redes_container{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+    .conforto{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .promocoes{
+        grid-template-columns: repeat(4, 300px);
+    }
+
+    .cel_rose{
+        margin-top: 40px !important;
+        background-size: 50% !important;
+    }
+    
+    .img_produto{
+        background-size: 70%;
+    }
+
+    .form{
+        display: none;
+    }
+
+    .news_img{
+        display: none;
+    }
+
+    .newsletter{
+        justify-content: center;
+        padding: 20px 0;
+    }
+}
