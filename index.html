@@ -522,20 +522,37 @@
           <input class="none" type="radio" name="slide" id="slide3" />
           <input class="none" type="radio" name="slide" id="slide4" />
           <picture class="slide s1">
-            <div class="container_img">
-              <img class="img_banner" src="./img/banner6.webp" alt="" />
+            <div class="container_banner">
+              <img class="banner_menor" src="./img/banner6.webp" alt="">
             </div>
-            <img class="banner1" src="./img/banner1.webp" alt="" />
+            <div class="imagem_banner">
+              <img class="banner1" src="./img/banner1.webp" alt="" />
+            </div>
           </picture>
-          <div class="slide">
-            <img src="./img/banner2.webp" alt="" />
-          </div>
-          <div class="slide">
-            <img src="./img/banner3.webp" alt="" />
-          </div>
-          <div class="slide">
-            <img src="./img/banner4.webp" alt="" />
-          </div>
+          <picture class="slide">
+            <div class="container_banner">
+              <img class="banner_menor" src="./img/banner7.webp" alt="">
+            </div>
+            <div >
+              <img class="banner2" src="./img/banner2.webp" alt="" />
+            </div>
+          </picture>
+          <picture class="slide">
+            <div class="container_banner">
+              <img cclass="banner_menor" src="./img/banner8.webp" alt="">
+            </div>
+            <div >
+              <img class="banner3" src="./img/banner3.webp" alt="" />
+            </div>
+          </picture>
+          <picture class="slide">
+            <div class="container_banner">
+              <img class="banner_menor" src="./img/banner9.webp" alt="">
+            </div>
+            <div >
+              <img class="banner3" src="./img/banner4.webp" alt="" />
+            </div>
+          </picture>
         </div>
         <div class="navigation">
           <label class="bar" for="slide1"></label>
@@ -1003,13 +1020,15 @@
       </div>
     </main>
     <footer class="footer container">
-      <div class="footer_container ">
+      <div class="footer_container col2">
         <div>
-          <img src="./img/logo2.png" alt="">
+          <div class="logo2">
+            <img  src="./img/logo2.png" alt="">
+          </div>
         </div>
         <div>
           <h4 class="th">Institucional</h4>
-          <ul>
+          <ul class="container_institucional">
             <li>
               <a class="ta" href=""> - Quem Somos</a>
             </li>
@@ -1068,14 +1087,23 @@
               <span class="footer_card"></span>
             </div>
           </div>
-          <div class="entrega">
-            <h4 class="th">Entrega</h4>
-            <div class="footer_entrega">
-              <span class="card_entrega"></span>
-            </div>
-            <div class="correio">
-              <span class="card_correio"></span>
-            </div>
+          <div>
+              <div class="entrega">
+                <a href="">
+                  <div class="the">
+                    <h4 class="th">Entrega I <span> Rastrear Pedido</span></h4>
+                    <div class="seta">↓</div>
+                  </div>
+                </a>
+                <div class="postagem">
+                  <div class="footer_entrega">
+                    <span class="card_entrega"></span>
+                  </div>
+                  <div class="correio">
+                    <span class="card_correio"></span>
+                  </div>
+                </div>
+              </div>
           </div>
         </div>
       

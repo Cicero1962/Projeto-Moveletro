@@ -4,7 +4,7 @@
     gap: 80px;
     padding-left: 10px;
     padding-right: 10px;
-
+    width: 100%;
 }
 
 .footer_container{
@@ -57,6 +57,7 @@
     max-width: 123px;
     height: 35px;
     position: relative;
+    margin-bottom: 20px;
 }
 
 .correio{
@@ -98,7 +99,72 @@
     background-position: 0 -246px;
    
 }
+.menu_entrega{
+    display: ;
+}
 
 .footer_pagamentos{
     margin-bottom: 50px;
+}
+
+.seta{
+    color: red;
+    font-size: 12px;
+    font-weight: 600;
+    padding-right: 20px;
+}
+
+@media(max-width:1000px){
+    .footer_container{
+       display: flex;
+       flex-direction: column;
+       width: 100%;
+       max-width: 1000px;
+    }
+    .footer_conteudo{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .footer{
+        display: flex;
+        flex-direction: column-reverse;
+        position: relative;
+        padding-left: 0;
+        padding-right: 0;
+        
+    }
+.container_institucional{
+    display: none;
+}
+
+
+.logo2{
+    position: absolute;
+    top: 0;
+    left: 40%;
+}
+.entrega{
+    width: 100%;
+    
+    margin-top: 50px;
+}
+.the > h4{
+    margin-top: 20px;
+    font-size: 16px;
+    color: #000000;
+    font-weight: 400;
+    padding-left: 10px;
+}
+
+.the{
+    display: flex;
+    background-color: #F4F4F4;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.postagem{
+    display: none;
+}
 }
